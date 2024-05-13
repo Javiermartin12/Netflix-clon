@@ -1,4 +1,6 @@
-
+.container{
+    position: relative;
+}
 
 .background {
     background-image: url("../../assets/images/netflixBG-LOGINPAGE.jpeg");
@@ -7,3 +9,13 @@
     width: 100%;
    
 }
+
+.logo {
+
+     position: absolute;
+  top: 1.25rem; /* Ajusta la posición vertical del logo en rem */
+  left: 1.25rem; /* Ajusta la posición horizontal del logo en rem */
+  width: 12.5rem; /* Ancho del logo en rem */
+  height: 4.25rem; /* Altura del logo en rem */
+  z-index: 1;
+  }

@@ -1,8 +1,9 @@
 import LoginPage from "./loginPage";
+import style from "../styles/global.module.css"
 
-function Home() {
+function MyApp() {
     return (
-      <div>
+      <div style={style}>
         <h1>Welcome to My Next.js App!</h1>
         <p>This is the home page.</p>
 
@@ -10,4 +11,4 @@ function Home() {
     );
   }
   
-  export default Home;
+  export default MyApp;
