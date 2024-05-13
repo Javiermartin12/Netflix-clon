@@ -2,7 +2,7 @@ import styles from "../styles/pagesStyle/loginPage.module.css"
 import logo from "../assets/images/logo.jpg"
 import Image from 'next/image';
 
-export default function LoginPage() {
+export default function Login() {
 
 
     return (
