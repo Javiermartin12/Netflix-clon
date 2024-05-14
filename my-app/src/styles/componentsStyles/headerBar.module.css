@@ -29,14 +29,21 @@
     color: #fff;
     margin-right: 5%;
     margin-left: 5%;
-    
+
 }
 .endNavLinks{
     display: flex;
-    justify-content: space-between;
+    
+    gap: 20px;
 }
 .lupaBlanca{
     color: #fff;
     cursor: pointer;
     fill: white;
+}
+
+.profile{
+    border: 1px solid white;
+    height: 24px;
+    width: 24px;
 }
