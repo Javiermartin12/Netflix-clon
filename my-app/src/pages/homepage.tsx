@@ -6,7 +6,7 @@ import HeaderBar from "@/components/headerBar";
 
     return (
         <>
-        <div>HOME </div>
+        
         <HeaderBar />
         </>
     )
