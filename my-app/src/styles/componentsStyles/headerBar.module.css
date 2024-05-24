@@ -1,0 +1,49 @@
+
+
+.headerContainer{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .7) 10%, transparent);  
+    
+   height: 4rem;
+    width: 100%;
+    z-index: 1;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+
+}
+
+.scrolled {
+    background: #000; 
+  }
+
+.logo{
+    height: 2rem; /* Ajusta el tamaño según tus necesidades */
+    width: auto;
+    margin-left: 5%;
+}
+
+.navLinks{
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+.endNavLinks{
+    display: flex;
+    
+    gap: 20px;
+}
+.lupaBlanca{
+    color: #fff;
+    cursor: pointer;
+    fill: white;
+}
+
+.profile{
+    border: 1px solid white;
+    height: 24px;
+    width: 24px;
+}
