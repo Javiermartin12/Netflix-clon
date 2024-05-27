@@ -1,10 +1,11 @@
 import axios from "axios";
 
-const url = ""
 
-export const GetMovie = async (id?: string)=> {
+const url = "http://localhost:4000/movie"
+
+export const GetMovie = async ()=> {
     try {
-        const response = id ? await axios.get(`${url}/${id}`) : await axios.get(url);
+        const response =  await axios.get(url) 
         return response.data
     } catch (error) {
         console.log(error)
