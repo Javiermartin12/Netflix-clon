@@ -1,4 +1,5 @@
 import HeaderBar from "@/components/headerBar";
+import NewMovie from "@/components/postMovie";
 import ReqGetAllMoviesAndDelete from "@/components/reqGetDelMovies";
 
  function Home(){
@@ -9,6 +10,7 @@ import ReqGetAllMoviesAndDelete from "@/components/reqGetDelMovies";
         
         <HeaderBar />
         <ReqGetAllMoviesAndDelete />
+        <NewMovie />
         </>
     )
 }

@@ -38,11 +38,7 @@ const ReqGetAllMoviesAndDelete = ()=>{
                             <div>
                                 <h3>{movie.name}</h3>
                                 <p>{movie.sinopsis}</p>
-                                <Image src={movie.posterImage}
-                                 alt={movie.name}
-                                 width={300}
-                                 height={450}
-                                 priority />
+                                
                                 <p>Score: {movie.score}</p>
                                 <button onClick={() => handleDelete(movie.id)}>Delete</button>
                             </div>
